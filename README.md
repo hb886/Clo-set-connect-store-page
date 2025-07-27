@@ -1,12 +1,76 @@
-# React + Vite
+# CLO Virtual Fashion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A virtual fashion product listing app built with React and Vite. Users can search, filter, and browse a collection of fashion items with pricing options.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product listing with images, title, creator, and price
+- Search bar to filter products by title or creator
+- Filter by pricing options: Paid, Free, View Only
+- Responsive grid layout
+- Styled with styled-components
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── Context.jsx
+│   ├── main.jsx
+│   ├── Components/
+│   │   ├── Header/
+│   │   ├── SearchBar/
+│   │   ├── Filter/
+│   │   └── Product/
+│   └── Services/
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── index.html
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer recommended)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd clo-virtual-fashion
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+```sh
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Building for Production
+
+```sh
+npm run build
+```
+
+### Linting
+
+```sh
+npm run lint
+```
+
+## Configuration
+
+- Vite configuration: [vite.config.js](vite.config.js)
+- ESLint configuration: [eslint.config.js](eslint.config.js)
