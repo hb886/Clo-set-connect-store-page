@@ -2,6 +2,9 @@
 
 A virtual fashion product listing app built with React and Vite. Users can search, filter, and browse a collection of fashion items with pricing options.
 
+**Hosted here:**  
+[https://clo-set-connect-store-page.vercel.app/](https://clo-set-connect-store-page.vercel.app/)
+
 ## Features
 
 - Product listing with images, title, creator, and price
@@ -72,5 +75,5 @@ npm run lint
 
 ## Configuration
 
-- Vite configuration: [vite.config.js](vite.config.js)
-- ESLint configuration: [eslint.config.js](eslint.config.js)
+- Vite configuration: `vite.config.js`
+- ESLint configuration:
